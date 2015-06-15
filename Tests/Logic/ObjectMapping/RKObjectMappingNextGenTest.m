@@ -36,7 +36,7 @@
 #import "RKManagedObjectMappingOperationDataSource.h"
 #import "RKDynamicMapping.h"
 #import "RKMIMETypeSerialization.h"
-#import "ISO8601DateFormatterValueTransformer.h"
+#import <ISO8601DateFormatterValueTransformer/ISO8601DateFormatterValueTransformer.h>
 #import "RKCLLocationValueTransformer.h"
 
 // Managed Object Serialization Testific

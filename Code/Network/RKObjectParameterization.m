@@ -28,7 +28,7 @@
 #import "RKMappingOperation.h"
 #import "RKMappingErrors.h"
 #import "RKPropertyInspector.h"
-#import "RKValueTransformers.h"
+#import <RKValueTransformers.h/RKValueTransformers.h>
 
 // Set Logging Component
 #undef RKLogComponent

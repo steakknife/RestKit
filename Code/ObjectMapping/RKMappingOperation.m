@@ -30,7 +30,7 @@
 #import "RKObjectMappingOperationDataSource.h"
 #import "RKDynamicMapping.h"
 #import "RKObjectUtilities.h"
-#import "RKValueTransformers.h"
+#import <RKValueTransformers.h/RKValueTransformers.h>
 #import "RKDictionaryUtilities.h"
 
 // Set Logging Component

@@ -26,6 +26,7 @@
 #import "RKAttributeMapping.h"
 #import "RKRelationshipMapping.h"
 #import <RKValueTransformers/RKValueTransformers.h>
+#import <ISO8601DateFormatter/ISO8601DateFormatter.h>
 #import <ISO8601DateFormatterValueTransformer/ISO8601DateFormatterValueTransformer.h>
 
 typedef NSString * (^RKSourceToDesinationKeyTransformationBlock)(RKObjectMapping *, NSString *);

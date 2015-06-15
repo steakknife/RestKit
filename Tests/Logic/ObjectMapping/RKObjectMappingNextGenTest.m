@@ -131,7 +131,7 @@
 
     // Reset the default transformer
     [RKValueTransformer setDefaultValueTransformer:nil];
-    RKISO8601DateFormatter *dateFormatter = [RKISO8601DateFormatter defaultISO8601DateFormatter];
+    ISO8601DateFormatter *dateFormatter = [ISO8601DateFormatter defaultISO8601DateFormatter];
     [[RKValueTransformer defaultValueTransformer] insertValueTransformer:dateFormatter atIndex:0];
 }
 

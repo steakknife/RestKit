@@ -7,7 +7,7 @@
 //
 
 #import "RKTestEnvironment.h"
-#import "RKISO8601DateFormatter.h"
+#import <ISO8601DateFormatter/ISO8601DateFormatter.h>
 
 @interface RKISODateFormatterTest : RKTestCase
 
@@ -17,7 +17,7 @@
 
 - (void)testDateFormatterRespectsTimeZone
 {
-    RKISO8601DateFormatter *formatter = [[RKISO8601DateFormatter alloc] init];
+    ISO8601DateFormatter *formatter = [[ISO8601DateFormatter alloc] init];
     [formatter setIncludeTime:YES];
     [formatter setTimeZone:[NSTimeZone timeZoneWithName:@"UTC"]]; // UTC
     
